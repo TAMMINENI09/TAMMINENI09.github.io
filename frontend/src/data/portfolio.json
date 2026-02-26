@@ -1,0 +1,264 @@
+{
+  "profile": {
+    "name": "Sai Siri Tammineni",
+    "role": "AI Full-Stack Developer",
+    "location": "United States",
+    "tagline": "Building crisp, human-centered interfaces with reliable backends.",
+    "summary": "Welcome, and thanks for visiting! I’m Sai Siri Tammineni, a Software Engineer passionate about full-stack development, AI systems, and building software that creates real impact.",
+    "availability": "Open to select freelance and full-time roles"
+  },
+  "highlights": [
+    {
+      "label": "Years of Experience",
+      "value": "5+"
+    },
+    {
+      "label": "Projects Delivered",
+      "value": "30+"
+    },
+    {
+      "label": "Focus",
+      "value": "Product, Platforms, Design"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Texas A&M University, Corpus Christi | International Student Programs & Services (ISPS)",
+      "role": "Software Development & Digital Systems Research Assistant",
+      "period": "Jan 2024 — Present",
+      "summary": "This role centered on internal systems that had to be correct, traceable, and resilient under policy and compliance constraints. The work shaped how I think about data lifecycles, auditability, and designing automation that people can trust.",
+      "bullets": [
+        "Built and maintained internal web tools that handled sensitive records with clear validation paths.",
+        "Automated steps in compliance-oriented workflows to reduce manual handling and error risk.",
+        "Implemented backend logic and data checks to keep records consistent over time.",
+        "Improved reliability by making failure states visible and recoverable.",
+        "The focus on traceability influenced how I design AI-assisted workflows later."
+      ]
+    },
+    {
+      "company": "Texas A&M University, Corpus Christi | Marketing & Communications",
+      "role": "Photography & Web Content Developer",
+      "period": "Aug 2023 — Jan 2024",
+      "summary": "This role was about keeping digital content systems stable and usable while supporting time-sensitive updates. The constraints were practical: reliable publishing, accessible pages, and predictable performance under real traffic.",
+      "bullets": [
+        "Shipped frontend changes that prioritized clarity, accessibility, and consistent layout behavior.",
+        "Built repeatable content pipelines that reduced manual edits and publishing errors.",
+        "Kept workflows predictable so updates could move quickly without breaking pages.",
+        "The experience reinforced a discipline of clean UI boundaries and minimal complexity."
+      ]
+    },
+    {
+      "company": "Wipro Technologies",
+      "role": "Software Engineer Intern",
+      "period": "Aug 2022 — June 2023",
+      "summary": "This role exposed me to production-oriented systems where stability and observability matter as much as new features. It reinforced the value of clean interfaces, defensive data handling, and release hygiene.",
+      "bullets": [
+        "Worked on backend services and APIs that integrated with existing enterprise systems.",
+        "Touched databases and deployment workflows where rollback and monitoring were critical.",
+        "Gained exposure to CI/CD practices and operational readiness checks.",
+        "The production focus shaped my approach to performance and failure isolation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CryptoStream",
+      "summary": "CryptoStream is a real-time cryptocurrency price streaming platform that captures live tick updates directly from TradingView’s BINANCE exchange pages using Playwright. Instead of relying on rate-limited public APIs, it observes DOM price transitions in a live browser session to replicate the exact updates traders see. A Node.js + TypeScript backend streams normalized price events via ConnectRPC to a Next.js frontend, enabling push-based, low-latency rendering without polling. The system is designed for clean separation of acquisition, streaming, and UI, with controlled browser reuse and per-ticker isolation for reliability and scalability.",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Playwright",
+        "ConnectRPC",
+        "pnpm",
+        "tsx"
+      ],
+      "link": "https://github.com/TAMMINENI09/Crypto-Stream"
+    },
+    {
+      "name": "EmotiveChat",
+      "summary": "EmotiveChat is a BERT-based multi-class emotion classifier integrated into a chatbot to enable tone-aware, context-adaptive responses. Fine-tuned on the ISEAR dataset using bert-base-uncased and trained in PyTorch, the model leverages bidirectional attention to better distinguish semantically similar emotions (e.g., guilt vs. shame). Evaluated with macro F1-score to account for class imbalance, it delivers strong performance while acknowledging nuanced overlap between classes. Integrated into a Flask backend, real-time predictions guide response tone without positioning outputs as diagnostic.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "scikit-learn",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn",
+        "BERT"
+      ],
+      "link": "https://example.com"
+    },
+    {
+      "name": "DataPulse AI",
+      "summary": "DataPulse AI is a Python-based incident analysis platform that automates log ingestion, normalization, clustering, and AI-assisted summarization to reduce manual triage during production incidents. It standardizes heterogeneous logs into a common schema, enriches them with contextual metadata, and groups related events to surface high-signal clusters. An AI model generates concise, evidence-linked summaries, combining deterministic data processing with controlled AI reasoning to deliver actionable, transparent insights.",
+      "stack": [
+        "RAG",
+        "FastAPI",
+        "PyTorch",
+        "Docker",
+        "Azure"
+      ],
+      "link": "https://example.com"
+    }
+  ],
+  "skills": [
+    {
+      "group": "Languages / Platforms",
+      "items": [
+        "Java",
+        "JavaScript",
+        "Python",
+        "SQL",
+        "HTML/CSS",
+        "Relational database platforms",
+        "Cloud-hosted app environments"
+      ]
+    },
+    {
+      "group": "Frameworks",
+      "items": [
+        "Spring Boot–based backend services",
+        "REST API frameworks",
+        "React for API-driven UIs",
+        "Node.js",
+        "Flask"
+      ]
+    },
+    {
+      "group": "AI / ML",
+      "items": [
+        "Backend orchestration for AI-enabled workflows",
+        "Structured log analysis",
+        "Summaries",
+        "Applied RAG-style processing"
+      ]
+    },
+    {
+      "group": "Tools",
+      "items": [
+        "REST APIs",
+        "Git",
+        "CI/CD pipelines",
+        "PostgreSQL",
+        "MySQL",
+        "Automated testing tools",
+        "Secure backend integration utilities"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Texas A&M University, Corpus Christi",
+      "degree": "M.S. in Computer Science",
+      "period": "Aug 2023 — May 2025"
+    },
+    {
+      "school": "Vidya Jyothi Institute of Technology",
+      "degree": "B.S. in Computer Science",
+      "period": "Aug 2019 — May 2013"
+    }
+  ],
+  "contact": {
+    "email": "stamminenijobs@gmail.com",
+    "phone": "+1 (361) 737-4482",
+    "linkedin": "linkedin.com/in/saisiritammineni/",
+    "github": "https://github.com/TAMMINENI09"
+  },
+  "about": {
+    "eyebrow": "Impact",
+    "summary": "I am a software engineer specializing in full-stack development, AI-integrated systems, and Python automation. My work focuses on building reliable, production-ready applications that combine clean architecture with intelligent features.\n\nI enjoy designing systems end to end — from API design and database modeling to frontend implementation and deployment workflows. My approach emphasizes maintainability, observability, and real-world usability rather than experimental prototypes.",
+    "cards": [
+      {
+        "label": "Programming Experience",
+        "value": "5+ years"
+      },
+      {
+        "label": "Focus",
+        "value": "Platform Engineering"
+      },
+      {
+        "label": "Currently",
+        "value": "AI Full-Stack Developer"
+      }
+    ]
+  },
+  "galleryPage": {
+    "title": "Gallery",
+    "photos": [
+      {
+        "title": "City Glow",
+        "location": "Downtown",
+        "year": "2025",
+        "src": "../../public/gallery/1.jpeg"
+      },
+      {
+        "title": "City Glow",
+        "location": "Downtown",
+        "year": "2025",
+        "src": "../../public/gallery/2.jpeg"
+      },
+      {
+        "title": "City Glow",
+        "location": "Downtown",
+        "year": "2025",
+        "src": "../../public/gallery/3.jpeg"
+      },
+      {
+        "title": "City Glow",
+        "location": "Downtown",
+        "year": "2025",
+        "src": "../../public/gallery/4.jpeg"
+      },
+      {
+        "title": "City Glow",
+        "location": "Downtown",
+        "year": "2025",
+        "src": "../../public/gallery/5.jpeg"
+      },
+      {
+        "title": "City Glow",
+        "location": "Downtown",
+        "year": "2025",
+        "src": "../../public/gallery/6.jpeg"
+      },
+      {
+        "title": "City Glow",
+        "location": "Downtown",
+        "year": "2025",
+        "src": "../../public/gallery/7.jpeg"
+      },
+      {
+        "title": "City Glow",
+        "location": "Downtown",
+        "year": "2025",
+        "src": "../../public/gallery/8.jpeg"
+      },
+      {
+        "title": "City Glow",
+        "location": "Downtown",
+        "year": "2025",
+        "src": "../../public/gallery/9.jpeg"
+      },
+      {
+        "title": "City Glow",
+        "location": "Downtown",
+        "year": "2025",
+        "src": "../../public/gallery/10.jpeg"
+      },
+      {
+        "title": "City Glow",
+        "location": "Downtown",
+        "year": "2025",
+        "src": "../../public/gallery/11.jpeg"
+      },
+      {
+        "title": "City Glow",
+        "location": "Downtown",
+        "year": "2025",
+        "src": "../../public/gallery/12.jpeg"
+      }
+    ]
+  }
+}
